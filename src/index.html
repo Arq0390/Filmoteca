@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sass/index.scss">
+  <title>Filmoteka</title>
+</head>
+<body>
+  <header class="header">
+    <img src="../src/images/film.svg" alt="film">
+    <h1>Filmoteca</h1>
+    <nav class="header__nav">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Películas</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Mis Favoritos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="filmoteka">
+    <h1 class="filmoteka__title">Peliculas en Tendencia</h1>
+    <div class="filmoteka__movies" id="movies-list"></div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2023 Filmoteka. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>
